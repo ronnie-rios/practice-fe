@@ -2,7 +2,7 @@ import React from 'react'
 import AvailableMeals from './AvailableMeals'
 import MealsSummary from './MealsSummary'
 
-export default function () {
+export default function Meals() {
   return (
     <>
         <MealsSummary />
