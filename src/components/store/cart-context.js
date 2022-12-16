@@ -9,6 +9,7 @@ export const CartContext = React.createContext({
 
 //PROVIDER
 export const CartProvider = props => {
+    
     const addItemToCart = (items) => {
 
     }
@@ -22,7 +23,6 @@ export const CartProvider = props => {
         addItem: addItemToCart,
         removeItem: removeItemFromCart
     }
-
 
     return <CartContext.Provider value={cartContext}>
         {props.children}
